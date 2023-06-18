@@ -26,10 +26,7 @@ function mintNFT (_name, _hairType, _height, _bling) {
     console.log("Minted: " + _name)
 }
 
-mintNFT("Hakeem", "Black", 6.0, "Silver Wrist watch")
-mintNFT("Rasheedat", "Brown", 5.0, "Gold Chain")
-mintNFT("Moshoodat", "Bald", 5.0, "Gold Chain")
-mintNFT("Shukurah", "Black", 6.0, "Diamond Wrist watch")
+
 
 // create a "loop" that will go through an "array" of NFT's
 // and print their metadata with console.log()
@@ -44,14 +41,21 @@ function listNFTs () {
 
 }
 
-listNFTs()
+
 
 // print the total number of NFTs we have minted to the console
 function getTotalSupply() {
  console.log("\n " + NFTs.length)
 }
 
-getTotalSupply()
+
 
 // call your functions below this line
+mintNFT("Hakeem", "Black", 6.0, "Silver Wrist watch")
+mintNFT("Rasheedat", "Brown", 5.0, "Gold Chain")
+mintNFT("Moshoodat", "Bald", 5.0, "Gold Chain")
+mintNFT("Shukurah", "Black", 6.0, "Diamond Wrist watch")
 
+listNFTs()
+
+getTotalSupply()
